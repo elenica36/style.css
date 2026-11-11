@@ -1,0 +1,66 @@
+/* DEV.140 · Week 3 · Lecture 6 · START. Follow along, one rule at a time. */
+
+/* TODO slide 13: put the box-sizing rule at the very top:
+* {
+  box-sizing: border-box;
+}
+*/
+
+body {
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  line-height: 1.6;
+  background-color: #f5f7fb;
+  color: #16233f;
+  margin: 0;
+}
+
+h1, h2, h3 {
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  color: #0e9c93;
+  margin: 0;
+}
+
+main {
+  padding: 0 24px;
+}
+
+p {
+  font-size: 18px;
+}
+
+.note {
+  color: #c8102e;
+}
+
+#hero {
+  background-color: #e6f4f3;
+  padding: 32px;
+  margin-bottom: 32px;
+}
+
+/* TODO slide 7: add a border (2px solid + a color) and padding: 24px;
+   TODO slide 10: then add margin-bottom: 24px; */
+.card {
+  background-color: #ffffff3e;
+  border: 2px solid hsl(293, 75%, 20%);
+  padding: 24px;
+  margin-bottom: 24px;
+}
+
+/* TODO slide 10: padding, border-bottom, margin-bottom */
+header {
+  padding: 24px;
+  border-bottom: 2px solid hsl(293, 75%, 20%);
+  margin-bottom: 24px;
+}
+
+/* TODO slide 10: padding, border-top, margin-top */
+footer {
+  padding: 24px;
+  border-top: 2px solid hsl(293, 75%, 20%);
+  margin-top: 24px;
+}
